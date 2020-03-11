@@ -1,8 +1,11 @@
 # Client Miners
 
-In the initial blockchain demonstration, we've created a small problem.  The `mine` endpoint is called on the server, which means we're the ones spending all of the electricity to generate a new block.  This won't do at all!
+In the initial blockchain demonstration, we've created a small problem.
+The `mine` endpoint is called on the server, which means we're the ones spending
+all of the electricity to generate a new block.  This won't do at all!
 
-Furthermore, the amount of work needed to actually mine a block is a bit low.  We need it to be harder to preserve the integrity of the chain.
+Furthermore, the amount of work needed to actually mine a block is a bit low.
+We need it to be harder to preserve the integrity of the chain.
 
 
 # Task List
