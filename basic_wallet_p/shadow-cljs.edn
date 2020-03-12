@@ -1,0 +1,8 @@
+{:dependencies [[reagent "RELEASE"]
+                [cljs-ajax "0.8.0"]
+                [org.clojure/core.async "1.0.567"]]
+ :source-paths ["."]
+ :builds {:main {:target :browser
+                 :output-dir "static/js"
+                 :asset-path "js"
+                 :modules {:main {:entries [blockchain.core]}}}}}
